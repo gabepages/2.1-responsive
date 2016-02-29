@@ -293,3 +293,75 @@ form {
 .icons {
 	margin-top: 15px;
 }
+@media screen and(max-width: 1199px) {
+	.social-nav{
+		display: none;
+	}
+	.primary-nav{
+		text-align: center;
+		ul{
+			margin-top: 12px;
+			margin-bottom: 8px;
+			li{
+				display: block;
+				width: 100%;
+				margin-bottom: 4px;
+
+			}
+		}
+	}
+}
+
+
+@media screen and(max-width: 991px) {
+	.img{
+		padding: 0 0 0 0;
+		margin: 10px 0 0 0;
+	}
+	.img-3{
+		background: url("../images/sk8er-2.png") center center;
+		height: 222px;
+		h1{
+			padding-top: 65px;
+		}
+	}
+	.contactus{
+		text-align: center;
+		h1{
+			width: 100%;
+			text-align: center;
+		}
+		p{
+			width: 100%;
+		}
+	}
+	.contact{
+		text-align: center;
+		height: 530px;
+		margin: 10px auto;
+		form{
+			padding: 0;
+			button{
+				width: 100%;
+			}
+		}
+
+	}
+}
+
+@media screen and(max-width: 500px) {
+.img-3{
+	h1{
+		padding-top: 30px;
+	}
+}
+.img-4{
+	h1{
+		padding-top: 30px;
+	}
+}
+.contact{
+	height: 600px;
+}
+
+}
