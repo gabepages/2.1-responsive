@@ -297,6 +297,12 @@ form {
 	.social-nav{
 		display: none;
 	}
+	.decks{
+		display: none;
+	}
+	.contact{
+		margin: 25px auto;
+	}
 	.primary-nav{
 		text-align: center;
 		ul{
@@ -338,7 +344,6 @@ form {
 	.contact{
 		text-align: center;
 		height: 530px;
-		margin: 10px auto;
 		form{
 			padding: 0;
 			button{
